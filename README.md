@@ -27,7 +27,10 @@ python sw_api.py
 
 A API estará disponível em http://127.0.0.1:5000/. Você pode acessar os endpoints abaixo para obter alguns dados interessantes:
 
-http://127.0.0.1:5000/hottest_planet
-http://127.0.0.1:5000/appears_most
-http://127.0.0.1:5000/fastest_ships
-http://127.0.0.1:5000/powerful_weapon
+1. http://127.0.0.1:5000/hottest_planet
+
+2. http://127.0.0.1:5000/appears_most
+
+3. http://127.0.0.1:5000/fastest_ships
+
+4. http://127.0.0.1:5000/powerful_weapon
