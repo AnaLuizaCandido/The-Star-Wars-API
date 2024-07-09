@@ -43,10 +43,10 @@ class SwapiDataTest:
         query = "SELECT count(name) FROM planets"
         planets = self.query_db(query)
         if planet_count == int(planets[0][0]):
-            print("Successful ingestion")
+            print("planet_count: Successful ingestion, the count in SWAPI matches count in planets table")
             return True
         else:
-            print("Failed ingestion")
+            print("planet_count: Failed ingestion")
             return False
 
     def test_people(self):
@@ -54,10 +54,10 @@ class SwapiDataTest:
         query = "SELECT count(name) FROM people"
         people = self.query_db(query)
         if people_count == int(people[0][0]):
-            print("Successful ingestion")
+            print("test_people: Successful ingestion, the count in SWAPI matches count in people table")
             return True
         else:
-            print("Failed ingestion")
+            print("test_people: Failed ingestion")
             return False
 
     def test_starships(self):
@@ -65,10 +65,10 @@ class SwapiDataTest:
         query = "SELECT count(name) FROM starships"
         starships = self.query_db(query)
         if starships_count == int(starships[0][0]):
-            print("Successful ingestion")
+            print("test_starships: Successful ingestion, the count in SWAPI matches count in starships table")
             return True
         else:
-            print("Failed ingestion")
+            print("test_starships: Failed ingestion")
             return False
         
 

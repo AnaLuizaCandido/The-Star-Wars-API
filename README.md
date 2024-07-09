@@ -7,25 +7,36 @@ O que esse repositório faz?
 3. Criação de uma API HTTP(S): Utilizaremos um framework, o Flask, para criar endpoints que disponibilizem os dados
 
 
-Certifique-se de que você tem o Python e Flask instalados. Para instalar Flask, use o seguinte comando:
+Certifique-se de que você tem o Python, as libraries requests e Flask instaladas. 
 
+Para instalar Flask, use o seguinte comando:
 ```
 pip install Flask
 ```
+
+Para instalar requests, use o seguinte comando:
+```
+pip install requests
+```
+
 ## Na primeira execução, rode a ingestão dos dados da api com o comando:
 ```
 python data_ingestor.py
 ```
 
-## Execute o script:
+## Se quiser testar se a ingestão de dados via API funcionou, rode o teste disponível:
+```
+python test.py
+```
 
+## Execute o script:
 ```
 python sw_api.py
 ```
 
-## Teste a API:
+## Consulte a API:
 
-A API estará disponível em http://127.0.0.1:5000/. Você pode acessar os endpoints abaixo para obter alguns dados interessantes:
+A API estará disponível nos endpoints abaixo para obter alguns dados interessantes sobre o mundo Star Wars:
 
 1. http://127.0.0.1:5000/hottest_planet
 
