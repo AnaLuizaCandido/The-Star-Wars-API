@@ -45,4 +45,6 @@ A API estará disponível nos endpoints abaixo para obter alguns dados interessa
 3. 3 naves mais rápidas do universo Star Wars: http://127.0.0.1:5000/fastest_ships
 
 4. 3 armas/naves mais poderosas* do universo Star Wars: http://127.0.0.1:5000/powerful_weapon
-*Aqui as mais poderoras, são as mais caras considerando o campo cost_in_credits da api.
+
+
+*Aqui as mais poderosas, são as mais caras considerando o campo cost_in_credits da api.
