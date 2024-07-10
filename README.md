@@ -38,10 +38,11 @@ python sw_api.py
 
 A API estará disponível nos endpoints abaixo para obter alguns dados interessantes sobre o mundo Star Wars:
 
-1. http://127.0.0.1:5000/hottest_planet
+1. 3 planetas mais quentes do universo Star Wars: http://127.0.0.1:5000/hottest_planet
 
-2. http://127.0.0.1:5000/appears_most
+2. 5 personagens que mais aparecem nos filmes Star Wars: http://127.0.0.1:5000/appears_most
 
-3. http://127.0.0.1:5000/fastest_ships
+3. 3 naves mais rápidas do universo Star Wars: http://127.0.0.1:5000/fastest_ships
 
-4. http://127.0.0.1:5000/powerful_weapon
+4. 3 armas/naves mais poderosas* do universo Star Wars: http://127.0.0.1:5000/powerful_weapon
+*Aqui as mais poderoras, são as mais caras considerando o campo cost_in_credits da api.
